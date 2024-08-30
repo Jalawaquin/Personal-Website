@@ -2,11 +2,6 @@ header{
     text-align:center;  
 }
 
-nav{
-    width: 150px;
-    height: 150px;
-}
-
 a {
     text-decoration: none;
 }
@@ -16,30 +11,14 @@ body{
     font-family: Arial, sans-serif;    
     background-color: #99D9EA;
 }
-.nav-img{
-    width: 140px;
-    height: 115px;
-}
 .art-img{
    width: 200px;
    height: 200px;
 }
-.side-bar{
-    float:left;
-    margin-left: 250px;
-    width: 175px;
-}
-.home-content{
-    margin-right: 250px;
-    margin-left: 450px;
-    padding-top: 10px;
-    padding-left: 35px;
-}
 .main-content{
-    margin-right: 250px;
+    text-align: center;
+    margin-right: 400px;
     margin-left: 400px;
-    padding-top: 10px;
-    padding-left: 25px;
 }
 
 
