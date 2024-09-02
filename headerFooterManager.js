@@ -3,7 +3,7 @@ class SpecialHeader extends HTMLElement{
         this.innerHTML = `
         <header>
           <a href="index.html">
-            <img src="PLANE_HEADER.png" alt="plane banner" class="plane-header">
+            <img src="plane_header_animation.gif" alt="plane banner" class="plane-header">
           </a>    
         </header>
         `
