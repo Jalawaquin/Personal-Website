@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About</title>
   <link rel="stylesheet" href="mystyle.css">
   <style>
     .image{
-      padding-top:10px;
-      padding-right:30px;
-      float:left;
+      text-align: center;
+    }
+    .image-size{
+      width: 45%;
+      height: 45%;
+    }
+    @media screen and (min-width:1280px){
+      .image{
+        padding-left: 5%;
+        padding-right: 2%;
+        float: left;
+      }
+      .image-size{
+        width: 90%;
+        height: 90%;
+      }
     }
   </style>
 </head>
@@ -17,10 +31,10 @@
 
   <div class="main-content">
     <div class="image">
-        <img src="about_gif.GIF" alt="bio gif" style="width: 248px; height:440px;">
+      <img src="about_gif.GIF" alt="bio gif" class="image-size">
     </div>
     <div class="text">
-        <h1>Hi, my name is Joaquin de Leon!</h1>
+        <h1> Hi, my name is Joaquin de Leon! </h1>
         <p> I am 23 years old and graduated with a Bachelors of Science in Computer Science 
             from the University of Houston. From a young age I have always been interested in creating, whether it be music, 
             art, film or this website! Since graduating from the University of Houston I have been exploring my options, 
