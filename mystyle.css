@@ -34,15 +34,15 @@ body{
         height: auto;    
     }
     body{
-        font-size: 18px;
+        font-size: 17px;
     }
     .art-img{
         width: 15vw;
         height: 15vw;
     }
     .main-content{
-        margin-left: 10vw;
-        margin-right: 10vw;        
+        margin-left: 15vw;
+        margin-right: 15vw;        
     }
     
 }
