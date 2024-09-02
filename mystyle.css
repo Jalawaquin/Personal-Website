@@ -9,7 +9,7 @@ a {
 body{
     font-size: 3.5vw;
     font-family: Arial, sans-serif;    
-    background-color: #99D9EA;
+    background-color: #97d7e8;
 }
 .art-img{
    width: 35vw;
@@ -30,7 +30,7 @@ body{
 /* Desktop Adjustments */
 @media screen and (min-width:1280px) {
     .plane-header{
-        width: 55%; 
+        width: 60%; 
         height: auto;    
     }
     body{
