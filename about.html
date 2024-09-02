@@ -5,22 +5,28 @@
   <title>About</title>
   <link rel="stylesheet" href="mystyle.css">
   <style>
+    h1{
+      text-align: center;
+    }
     .image{
       text-align: center;
     }
     .image-size{
       width: 45%;
-      height: 45%;
+      height: auto;
     }
     @media screen and (min-width:1280px){
+      h1{
+        text-align: left;
+      }
       .image{
-        padding-left: 5%;
-        padding-right: 2%;
-        float: left;
+        padding-left: 2%;
+        padding-right: 5%;
+        float: right;
       }
       .image-size{
         width: 90%;
-        height: 90%;
+        height: auto;
       }
     }
   </style>
@@ -30,16 +36,19 @@
   <special-header></special-header>
 
   <div class="main-content">
+
     <div class="image">
       <img src="about_gif.GIF" alt="bio gif" class="image-size">
     </div>
+
     <div class="text">
         <h1> Hi, my name is Joaquin de Leon! </h1>
-        <p> I am 23 years old and graduated with a Bachelors of Science in Computer Science 
-            from the University of Houston. From a young age I have always been interested in creating, whether it be music, 
-            art, film or this website! Since graduating from the University of Houston I have been exploring my options, 
-            seeing what careers I might be best suited for. In the meantime, I decided to create this website in the hopes 
-            to give a home to my various creative pursuits.
+        <p> I am 23 years old and graduated with a Bachelors of Science in Computer Science from the University of Houston. 
+          I also graduated high school with both my diploma as well as an Associates of Arts from Houston Community College. 
+          From a young age I have always been interested in creating, whether it be music, art, film or this website! 
+          Since graduating from the University of Houston I have been exploring my options, seeing what careers 
+          I might be best suited for. In the meantime, I decided to create this website in the hopes to give a 
+          home to my various creative pursuits.
         </p>
     </div>
   </div>

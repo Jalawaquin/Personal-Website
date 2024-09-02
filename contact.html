@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact</title>
-  <link rel="stylesheet" href="mystyle.css">
-  <style>
-    .image{
-      text-align: center;
-    }
-    .image-size{
-      width: 60%;
-      height: 70%;      
-    }
-    @media screen and (min-width: 1280px) {
-      .image{
-        float: right;
-      }
-      .image-size{
-        width: 20%;
-        height: 20%;  
-      }
-    }
-  </style>
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        h1{
+            text-align: center;
+        }
+        .image{
+            text-align: center;
+        }
+        .image-size{
+            width: 70%;
+            height: auto;
+        }
+        @media screen and (min-width: 1280px) {
+          h1{
+            text-align: left;
+          }
+          .image{
+            float: right;
+          }
+          .image-size{
+            width:20%;
+            height: auto;
+          }
+        }
+    </style>
+  </head>
 
-<body>
-  <special-header></special-header>
-  
-  <div class="side-bar">
-    <special-nav></special-nav>
-  </div>
+  <body>
+    <special-header></special-header>
 
-  <div class="main-content">
-    <div class ="text">
-      <h1>Contact</h1>
-      <p>
-        For any inquiries, commissions, whatever it may be, you may email me here!
-        joaquin.nofunnybusiness@gmail.com
-      </p>
+    <div class="main-content">
+      <div class="text">
+        <h1> Contact </h1>
+        <p> For any inquiries, commissions, whatever it may be, you may email me here!
+            joaquin.nofunnybusiness@gmail.com
+        </p>
+      </div>
+
+      <div class="image">
+        <img src="contact_image.jpg" alt="bio gif" class="image-size">
+      </div>
     </div>
-    <div class="image">
-      <img src="contact_image.jpg" alt="bio gif" class="image-size">
-    </div>
-  </div>
 
-  <script src="headerFooterManager.js"></script>
-</body>
 
+
+
+
+    <script src="headerFooterManager.js"></script>    
+  </body>
 </html>
